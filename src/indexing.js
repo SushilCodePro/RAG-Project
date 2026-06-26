@@ -33,7 +33,7 @@ const embeddings = {
 };
 
 async function indexing() {
-  const PDF_PATH = './Node.pdf';
+  const PDF_PATH = 'data/Node.pdf';
   const pdfLoader = new PDFLoader(PDF_PATH);
   const rawDocs = await pdfLoader.load();
 

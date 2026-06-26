@@ -40,7 +40,7 @@ async function chatting(question) {
   try {
     console.log(`\n💬 Question: "${question}"`);
 
-    // Step 1: embed the question
+    // Step 1: e mbed the question
     const queryVector = await embedQuery(question);
 
     // Step 2: search Pinecone for top 10 similar chunks
@@ -105,5 +105,5 @@ async function main() {
   await chatting(userQuestion);
   main(); // loop
 }
-
+ 
 main();

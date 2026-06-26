@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "ingest": "node ingest.js"
+    "ingest": "node src/indexing.js"
   },
   "dependencies": {
     "@google/genai": "^1.48.0",
@@ -19,5 +19,23 @@
   },
   "overrides": {
     "@langchain/core": "^0.3.58"
-  }
+  },
+  "description": "This repository provides a starter folder layout for building a Retrieval‑Augmented Generation (RAG) system using Node.js and JavaScript/TypeScript. The scaffold contains no implementation code—just the conventional directories and configuration files you can fill in.",
+  "main": "indexing.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SushilCodePro/RAG-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SushilCodePro/RAG-Project/issues"
+  },
+  "homepage": "https://github.com/SushilCodePro/RAG-Project#readme"
 }
